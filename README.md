@@ -150,7 +150,7 @@ sudo yum remove docker \
     minikube service grafana-ext
     ```
 # Get Grafana Credintials
-
+  -
     ```
     kubectl get secret — namespace default grafana -o yaml
     ```
