@@ -1,4 +1,4 @@
-# Monitoring Kubernetes Cluster with Prometheus and Grafana
+![image](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/assets/40537665/22f33563-c3c3-468c-8fc9-2ccc5075d868)# Monitoring Kubernetes Cluster with Prometheus and Grafana
 
 In This project we install Kubernates from scratch 
 ## Prerequisites
@@ -69,7 +69,7 @@ sudo yum remove docker \
     ```bash
     minikube start
     ```
-![Screenshot 2024-04-29 223759](https://github.com/AbdElrahmanSaaad/Kubernetes-Cluster-Monitoring-with-Prometheus-and-Grafana/assets/60901149/bf5c1fb6-f25d-4852-bc83-446bb1c57418)
+![Start minikube](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/5.PNG?raw=true)
 
 # Install Helm
 
@@ -151,6 +151,8 @@ Congratulations! You have successfully set up Prometheus and Grafana for monitor
 ![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/Capture.PNG?raw=true)
 
 ![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/2.PNG?raw=true)
+
+![grafana](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/3.PNG?raw=true)
 
 
 
