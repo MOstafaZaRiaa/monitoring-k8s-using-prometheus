@@ -100,17 +100,25 @@ sudo yum remove docker \
 
 2. Update the Helm repositories:
     ```bash
-    helm repo update
+    helm install prometheus prometheus-community/prometheus
     ```
 
 3. Install Prometheus using Helm:
     ```bash
-    helm install prometheus prometheus-community/prometheus
+    helm repo update
     ```
 
+4. Install Prometheus :
+    ```bash
+    helm install prometheus prometheus-community/prometheus
+    ```
 4. Expose Prometheus service:
     ```bash
-    kubectl expose service prometheus-server --type=NodePort --target-port=9090 --name=prometheus-np
+    kubectl expose service prometheus-server — type=NodePort — target-port=9090 — name=prometheus-server-ext
+    ```
+5. Open Web App of Prometheus
+    ```
+    minikube service prometheus-server-ext
     ```
 
 ## Deploy Grafana
