@@ -150,6 +150,7 @@ sudo yum remove docker \
     minikube service grafana-ext
     ```
 # Get Grafana Credintials
+
     ```
     kubectl get secret — namespace default grafana -o yaml
     ```
@@ -162,12 +163,6 @@ sudo yum remove docker \
     echo “username_value” | openssl base64 -d ; echo
     ```
 
-Accessing the Services
-You can access Prometheus and Grafana using the NodePort IP at ports 9090 and 3000 respectively.
-
-"minikube ip":9090 # Prometheus
-
-"minikube ip":3000 # Grafana
 
 # Conclusion
 
