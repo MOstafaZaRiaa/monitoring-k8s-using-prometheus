@@ -1,4 +1,4 @@
-![image](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/assets/40537665/22f33563-c3c3-468c-8fc9-2ccc5075d868)# Monitoring Kubernetes Cluster with Prometheus and Grafana
+# Monitoring Kubernetes Cluster with Prometheus and Grafana
 
 In This project we install Kubernates from scratch 
 ## Prerequisites
