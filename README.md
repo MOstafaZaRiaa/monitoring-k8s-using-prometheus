@@ -92,6 +92,7 @@ sudo yum remove docker \
 
 
 # Deploy Prometheus
+### Steps
 
 1. Add Prometheus Helm repository:
     ```bash
@@ -123,7 +124,7 @@ sudo yum remove docker \
 
 ## Deploy Grafana
 
-### Installation Steps
+### Steps
 
 1. Add Grafana Helm repository:
     ```bash
@@ -132,17 +133,33 @@ sudo yum remove docker \
 
 2. Update the Helm repositories:
     ```bash
-    helm repo update
+    helm install grafana grafana/grafana
     ```
 
 3. Install Grafana using Helm:
     ```bash
-    helm install grafana grafana/grafana
+    helm repo update
     ```
 
 4. Expose Grafana service:
     ```bash
-    kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-np
+    kubectl expose service grafana — type=NodePort — target-port=3000 — name=grafana-ext
+    ```
+5. Open Grafana Web APP
+    ```
+    minikube service grafana-ext
+    ```
+# Get Grafana Credintials
+    ```
+    kubectl get secret — namespace default grafana -o yaml
+    ```
+  - User
+    ```
+    echo “password_value” | openssl base64 -d ; echo
+    ```
+  - Password
+    ```
+    echo “username_value” | openssl base64 -d ; echo
     ```
 
 Accessing the Services
