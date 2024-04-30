@@ -148,9 +148,9 @@ You can access Prometheus and Grafana using the NodePort IP at ports 9090 and 30
 
 Congratulations! You have successfully set up Prometheus and Grafana for monitoring your Kubernetes cluster. With Grafana deployed, you can now configure dashboards to visualize various cluster metrics and gain insights into the health and performance of your Kubernetes environment.
 
-![Screenshot 2024-04-29 233814](https://github.com/AbdElrahmanSaaad/Kubernetes-Cluster-Monitoring-with-Prometheus-and-Grafana/assets/60901149/9e0ce84c-e9aa-4ee4-b489-6c4945287e2c)
+![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/Capture.PNG?raw=true)
 
-![Screenshot 2024-04-29 234635](https://github.com/AbdElrahmanSaaad/Kubernetes-Cluster-Monitoring-with-Prometheus-and-Grafana/assets/60901149/3642d7c0-6ab8-49fe-905a-76a06141bafd)
+![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/2.PNG?raw=true)
 
 
 
