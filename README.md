@@ -1,6 +1,6 @@
 # Monitoring Kubernetes Cluster with Prometheus and Grafana
 
-In This project we install Kubernates from scratch 
+In This project we install Kubernates, Prometheus and Grafana from scratch. And use Prometheus to monitor Kubernates cluster.
 ## Prerequisites
 
 - Docker
