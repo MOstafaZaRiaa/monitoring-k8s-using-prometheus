@@ -47,7 +47,24 @@ sudo yum remove docker \
     ```bash
     sudo systemctl enable --now docker
     ```
-
+5. Add your user to docker group:
+    ```bash
+    sudo usermod -aG docker $USER && newgrp docker 
+    ```
+# Install and Set Up kubectl
+### Steps
+1. Install kubectl binary with curl
+    ```
+    curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+    ```
+2. Validate the binary (optional), Download the kubectl checksum file
+    ```
+    curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+    ```
+3. Install kubectl
+    ```
+    sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+    ```    
 # Install Minikube
 
 ### Steps
@@ -69,7 +86,7 @@ sudo yum remove docker \
     ```bash
     minikube start
     ```
-![Start minikube](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/5.PNG?raw=true)
+    ![Start minikube](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/starting%20minikube.PNG?raw=true)
 
 # Install Helm
 
