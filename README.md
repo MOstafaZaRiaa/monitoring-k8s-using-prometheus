@@ -168,11 +168,9 @@ sudo yum remove docker \
 
 Congratulations! You have successfully set up Prometheus and Grafana for monitoring your Kubernetes cluster. With Grafana deployed, you can now configure dashboards to visualize various cluster metrics and gain insights into the health and performance of your Kubernetes environment.
 
-![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/Capture.PNG?raw=true)
+![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/prometheus.PNG?raw=true)
 
-![all up services](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/2.PNG?raw=true)
-
-![grafana](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/3.PNG?raw=true)
+![grafana](https://github.com/MOstafaZaRiaa/monitoring-k8s-using-prometheus/blob/main/images/grafana.PNG?raw=true)
 
 
 
