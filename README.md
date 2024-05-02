@@ -1,6 +1,6 @@
-# Monitoring Kubernetes Cluster with Prometheus and Grafana
+# Monitoring Kubernetes Cluster with Prometheus and Grafana On Centos 9
 
-In This project we install Kubernates, Prometheus and Grafana from scratch. And use Prometheus to monitor Kubernates cluster.
+This repo provides comprehensive instructions for setting up a monitoring infrastructure for Kubernetes clusters using Prometheus and Grafana. By following the steps outlined below, users can establish a robust monitoring system to track the health, performance, and resource utilization of their Kubernetes environments. Additionally, we implement service discovery within Prometheus to automatically detect and integrate new nodes into the monitoring system, ensuring seamless scalability and comprehensive coverage of the Kubernetes cluster.
 ## Prerequisites
 
 - Docker
